@@ -9,7 +9,7 @@ Included are a series of tests used to determine the effectiveness of multi-thre
 
 Computing the sum in a single for loop without multi-threading was simple. This program was called simpleSum. The sum was timed over 10 trials to record an accurate average runtime. The number of nanoseconds since the start of the day was recorded directly before and after the program was run. The difference between the two values was calculated to get the runtime of the process.
 
-Computing the total sum with multi-threading was more complex and required the use of an object class that extended the Java Thread class. This class was called threadSum. A tester class was used to facilitate the process by creating and initializing threads for the given R values. This was named threadSumTester. A single clas was needed for the Python implementation and was named threadSum. To change the number of threads used to compute the sum simply alter the global variable R at the top of the program.
+Computing the total sum with multi-threading was more complex and required the use of an object class that extended the Java Thread class. This class was called threadSum. A tester class was used to facilitate the process by creating and initializing threads for the given R values. This was named threadSumTester. To change the number of threads used to compute the sum simply alter the global variable R at the top of the program. A single clas was needed for the Python implementation and was named threadSum. Here a list of R values was iterated through instead of individually testing each number of threads.
 
 ## Summary of Findings
 
